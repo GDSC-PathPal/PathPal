@@ -1,4 +1,3 @@
-<br>
 ## Usage 
 
 ### 1. Environment  
@@ -23,5 +22,3 @@ $ pip install -r requirements.txt
 ```sh
 $ python inference_yolov8.py
 ```
-
-<br>
