@@ -144,6 +144,7 @@ PathPal provides an accurate route is provided through voice guidance from the s
 
 
 ## Backend
+<img src="https://github.com/GDSC-PathPal/PathPal/assets/51076814/42f9e869-2444-4918-9007-c6dac59d4e21" alt="server architecture" width="800">
 
 <br>
 
