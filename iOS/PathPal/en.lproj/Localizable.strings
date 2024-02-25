@@ -1,0 +1,38 @@
+
+
+"출발지" = "Starting Point";
+"출발지 검색" = "Search for a Starting Point";
+"현위치" = "Current Location";
+"도착지" = "Destination";
+"도착지 검색" = "Search for a Destination";
+"길찾기" = "Find a Route";
+"경로 안내" = "Route Guidance";
+"지도 보기" = "View Map";
+"검색 결과가 없습니다" = "No Results Found";
+"출발지와 도착지를 확인해주세요" = "Please Check Your Search Terms";
+"총 거리" = "Total Distance";
+"소요 시간" = "Estimated Time";
+"출발지 입력" = "Enter Starting Point";
+"도착지 입력" = "Enter Destination";
+"음성 인식" = "Voice Search";
+"검색 결과 더보기" = "Load More Results";
+"검색어" = "Search Term";
+
+"마이크" = "Microphone";
+"버튼을 눌러 마이크를 켜고 끌 수 있습니다" = "Tap to Toggle Microphone";
+"음성 인식 중" = "Listening...";
+"완료하기" = "Done";
+
+"출발하기" = "Start";
+"출발 방향 맞추기" = "Aligning Departure Direction";
+"방향 설정이 완료되면 시각 보조 화면으로 이동합니다" = "Switching to Visual Assistance Screen After Alignment";
+"진동이 울릴 때까지 출발 방향을 변경해주세요" = "Adjust the Starting Direction Until You Feel a Vibration";
+"설정 중..." = "Setting Up...";
+"설정 완료" = "Setup Complete";
+"분석중" = "Analyzing";
+"경로 다시보기" = "Review Your Route";
+"확인" = "Confirm";
+"검색" = "Search";
+"경로 찾는 중" = "Fetching Route";
+
+
