@@ -166,7 +166,7 @@ ML & Server
   - pip install -r requirements.txt
   - python inference_yolov8.py
 - Start Server
-  - java -jar PathPal-0.1.0.jar
+  - java -jar PathPal-Server.jar
   - **You must turn on the server after the ML server is turned on**
 
 # ‣ License
