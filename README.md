@@ -101,14 +101,8 @@ PathPal provides an accurate route is provided through voice guidance from the s
 <br>
 <br>
 
-# ‣ Simulation
 
-<br>
-<br>
-
-<br>
-
-# ‣ UN SDGs to fulfil
+# ‣ UN SDGs targets
 
 
 <img src="https://github.com/GDSC-PathPal/PathPal-iOS/assets/97840728/7dcf1db8-e8b7-4331-b721-7306610d9791" alt="목표 SDGs" style="width:80%;" />
@@ -119,13 +113,11 @@ PathPal provides an accurate route is provided through voice guidance from the s
 <br>
 
 # ‣ Expected Values
+![Expected Value](https://github.com/GDSC-PathPal/PathPal/assets/97840728/7ce882f4-1f43-4344-96c8-7e57f264277d)
 
 <br>
 <br>
 
-
-# ‣ Technical Features
-<br>
 
 ## Architecture
 <br>
@@ -146,6 +138,51 @@ PathPal provides an accurate route is provided through voice guidance from the s
 <br>
  
 ## AI/ML
+
+### Data label collection (before filtering)
+<img width="1094" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202023-12-29%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012 23 27" src="https://github.com/GDSC-PathPal/PathPal/assets/97840728/528f2b3a-18d8-4d4a-992a-090495713238">
+
+### Data label collection (after filtering) - actually providing on service
+bold - with vibration alert
+
+#### Pavement status
+
+- **flatness_D, flatness_E**
+- **paved_state_broken**
+- **block_kind_bad**
+- outcurb_rectangle, outcurb_slide, **outcurb_rectengle_broken**
+
+### Obstacles on sidewalk
+
+- **sidegap_out**
+- **steepramp**
+
+### Brailleblock
+
+- brailleblock_dot, brailleblock_line, **brailleblock_dot_broken**, **brailleblock_line_broken**
+- bicycleroad_broken, bicycleroad_normal
+
+### Crosswalk
+
+- **planecrosswalk_broken**, planecrosswalk_normal
+
+### Means of transportation
+
+- restsapce
+- ~~stair_normal, stair_broken~~
+- lift
+
+### Signs
+
+- sign_disabled_toilet
+- braille_sign
+
+### Infra and Resting places
+
+- resting_place_roof
+- chair_multi, chair_back, chair_handle
+- beverage_vending_machine
+- trash_can
 
 <br>
 
