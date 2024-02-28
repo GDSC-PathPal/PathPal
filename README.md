@@ -135,7 +135,14 @@ PathPal provides an accurate route is provided through voice guidance from the s
 <br>
  
 ## iOS
+### Guidance
+**You can seek swift code following steps below.**
+1. Go to PathPal directory
+2. Since iOS code of PathPal follow MNVVM patter, you can check View, ViewModel, Model code in directories.
+3. Localized string keys for multilingualn is in en.lproj
 
+
+<br>
 <br>
  
 ## AI/ML
