@@ -1,7 +1,10 @@
 # Google Developer Student Clubs 2024 Solution Challenge
 <br>
 
-## Top 100 !!
+## Top 100 !! 🥳🥳
+
+<br>
+
 
 ## wanna see commits? Go to Part Repo!
 ### iOS
