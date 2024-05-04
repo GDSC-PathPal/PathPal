@@ -64,8 +64,16 @@ PathPal provides an accurate route is provided through voice guidance from the s
 
 # ‣ Mockup
 
-<img src="https://github.com/GDSC-PathPal/PathPal-iOS/assets/97840728/0c62f68c-5103-4307-9538-d6c7058bd95a" alt="솔루션" style="width:80%;" />
+Light Mode(English)
+<br>
 
+<img src="https://github.com/GDSC-PathPal/PathPal-iOS/assets/97840728/0c62f68c-5103-4307-9538-d6c7058bd95a" alt="목업 라이트" style="width:80%;" />
+<br>
+
+Dark Mode(Korean)
+<br>
+
+<img src="https://github.com/GDSC-PathPal/.github/assets/97840728/58fb43f3-0a01-4cc9-80c6-72f6a4445a0c" alt="목업 다크" style="width:80%;" />
 <br>
 
 1. users can receive voice guidance for the route when they enter thier starting and arraival point.
@@ -117,7 +125,8 @@ PathPal provides an accurate route is provided through voice guidance from the s
 <br>
 
 # ‣ Expected Values
-![Expected Value](https://github.com/GDSC-PathPal/PathPal/assets/97840728/7ce882f4-1f43-4344-96c8-7e57f264277d)
+<img src="https://github.com/GDSC-PathPal/PathPal/assets/97840728/7ce882f4-1f43-4344-96c8-7e57f264277d" alt="기대 효과" style="width:80%;" />
+
 
 <br>
 <br>
@@ -126,7 +135,7 @@ PathPal provides an accurate route is provided through voice guidance from the s
 ## Architecture
 <br>
 
-![Group 560849](https://github.com/GDSC-PathPal/.github/assets/97840728/cd719a2f-2dff-46be-a587-5046fb9759c8)
+<img src="https://github.com/GDSC-PathPal/.github/assets/97840728/db6ddc51-5c5d-4a6f-81bc-f8ed09d13339" alt="아키텍쳐" style="width:80%;" />
 
 <br>
  
@@ -144,7 +153,9 @@ PathPal provides an accurate route is provided through voice guidance from the s
 ## AI/ML
 
 ### Data label collection (before filtering)
-<img width="1094" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202023-12-29%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012 23 27" src="https://github.com/GDSC-PathPal/PathPal/assets/97840728/528f2b3a-18d8-4d4a-992a-090495713238">
+
+<img src="https://github.com/GDSC-PathPal/PathPal/assets/97840728/528f2b3a-18d8-4d4a-992a-090495713238" alt="ML레이블" style="width:80%;" />
+
 
 ### Data label collection (after filtering) - actually providing on service
 bold - with vibration alert
@@ -206,7 +217,7 @@ Before you start, make sure you have installed the following on your system:
 - JDK 17
 
 ### Installation
-ML & Server
+##### ML & Server
 - Clone the Pathpal repository from GitHub
    - ML : https://github.com/GDSC-PathPal/PathPal-ML
    - Server : https://github.com/GDSC-PathPal/PathPal-Server
@@ -214,7 +225,13 @@ ML & Server
   - pip install -r requirements.txt
   - python inference_yolov8.py
 - Start Server
-  - java -jar PathPal-Server.jar
+  - java -jar PathPal-0.1.0.jar
+  - **You must turn on the server after the ML server is turned on**
+ 
+iOS ML & Server
+- Clone the Pathpal-iOS repository from GitHub
+   - https://github.com/GDSC-PathPal/PathPal-iOS
+  - **You must get the required API-Keys and config files before running**
   - **You must turn on the server after the ML server is turned on**
 
 # ‣ License
