@@ -22,3 +22,6 @@ $ pip install -r requirements.txt
 ```sh
 $ python inference_yolov8.py
 ```
+```sh
+$ python inference_tensorflow.py
+```
